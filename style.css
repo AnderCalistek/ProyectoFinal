@@ -1,0 +1,223 @@
+/*colores:#ffd1dc,#57a3f1,#ffeeee,black,#4b4949,#7bc646*/
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #57a3f1;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px 2px 3px #ffd1dc;
+    z-index: 2;
+}
+
+.header .container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 100;
+}
+.header .logo{
+    color: #ffeeee;
+    text-align: center;
+    padding: 0.5%;
+    flex-grow: 1;
+}
+
+.header .logo img{
+    width: 150px;
+    margin: 0 auto;
+}
+.header .menu{
+    text-align: center;
+    padding: 0.8%;
+    flex-grow: 8;
+}
+.menu .item >li{
+    display: inline-block;
+    padding: 0% 2%;
+    font-size: 18p;
+    list-style: none;
+}
+.item > li a{
+    color: black;
+    text-decoration: none;
+}
+.item > li a:hover{
+    color:#4b4949;
+    font-size: 19px;
+    text-shadow: #ffd1dc 2px 3px;
+}
+section {
+    
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    
+        width: 20%;
+        margin: 2% 0;
+        padding: 10px 20px;
+        background: #57a3f1;
+        border-radius: 10px;    
+        font-size: 20px;    
+        border: solid #402319 3px;
+        color: #F2F2F2;  
+        display: inline-block;
+    
+}
+
+
+#imagen {
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto; 
+    display: block; 
+    border: 2px solid transparent; 
+    max-width: 40%; 
+}
+
+p {
+    line-height: 1.5;
+}
+
+
+#ejercicio {
+    border: 2px solid #57a3f1;
+}
+
+#alimentacion  {
+    border: 2px solid #7bc646;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    max-width: 80px; 
+    margin-right: 10px; 
+}
+#Fitness{
+    border: 2px solid #7bc646;
+}
+#alimentacionMala  {
+    border: 2px solid #7bc646;
+}
+#contacto{
+    
+    text-align: right;
+    padding-bottom: 10px;
+    
+}
+.form > label{
+    text-align: left;
+    padding: 5px;
+}
+input:focus, .msn:focus{
+    border-bottom: none;
+    border-right: 2px solid #402319;
+    background-color: #ffffff28;
+}
+
+.btn_send, .btnRegistrar, .btnCancelar{  
+    width: 30%;
+    margin-top: 2%;
+    padding: 10px 20px;
+    background: #57a3f1;
+   
+    border-radius: 10px;    
+    font-size: 20px;    
+    border: solid #402319 3px;
+    color: #F2F2F2;   
+}  
+.btn_send:hover {
+    background: #57a3f1;    
+    text-decoration:underline;
+}
+
+.title_form{
+    margin: 2% 0;
+    text-align: center;
+    color: #57a3f1;
+
+}
+.form > input,label,button {
+    display: inline-block;
+    width: 80%;
+    margin: 1% 0;
+    font-size: 22px;
+}
+.form> input ,.msn{
+    padding: 10px 2px;
+    border: none;
+    border-bottom: 2px solid #402319;
+    outline: none;
+    background-color: #fce3e371;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(0.95); /* Efecto de aumento al pasar el ratón por encima */
+}
+
+
+.card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333; /* Color del texto del título */
+}
+
+.card p {
+    font-size: 16px;
+    color: #666; /* Color del texto del contenido */
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.is-valid{
+    background-color: #d1ffd3 ! important;
+    border-bottom: 5px solid #083b22;
+  }
+  .is-invalid{
+    background-color: rgba(90, 6, 6, 0.315);
+    border-bottom: 5px solid #f81818 ! important;
+  }
+  .copy{
+    text-align: center;
+    text-decoration: white;
+   background-color: #57a3f1;
+  }
+li{
+    list-style: none;
+}  
+/*.valid{
+    background-color: green;
+}
+.invalid{
+    background-color: red;
+}*/

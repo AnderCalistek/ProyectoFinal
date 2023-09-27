@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Proyecto</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="./img/LogoGym3.png" alt="Logo del Gym">
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul class="item">
+                        <li><a href="#">Principal</a></li>
+                        <li><a href="#ejercicio">Ejercicio</a></li>
+                        <li><a href="#Fitness">Fitness</a></li>
+                        <li><a href="#alimentacionMala">AlimentacionMala</a></li>
+                        <li><a href="#form">Formulario</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+            
+        </div>
+    </header>
+    
+    <section id="ejercicio">
+        <div class="card">
+        <h2 class="title">La Importancia del Ejercicio</h2>
+        <img src="./img/ejercicio1.jpg" alt="Personas haciendo ejercicio" id="imagen">
+        <p>Hacer ejercicio regularmente es esencial para mantener una vida saludable. No solo ayuda a mantener un peso adecuado, sino que también mejora la circulación, fortalece los músculos y aumenta la energía. <br>Es importante recordar que la cantidad y el tipo de ejercicio pueden variar según las necesidades individuales. Consultar a un profesional de la salud antes de comenzar un nuevo programa de ejercicios es recomendable, especialmente si tienes condiciones médicas preexistentes. En resumen, el ejercicio no solo beneficia al cuerpo, sino también a la mente y al espíritu, contribuyendo a una vida más saludable y plena.</p>
+    </div>
+    </section>
+    <section id="alimentacion">
+        <div class="card">
+        <h2 class="title">Una Alimentación Equilibrada</h2>
+        <img src="./img/alimentacion.jpeg" alt="Comida saludable" id="imagen">
+        <p>Comer una dieta equilibrada es fundamental para tener una buena salud. Deberíamos incluir una variedad de frutas, verduras, proteínas magras, granos enteros y grasas saludables en nuestras comidas diarias. <br>
+        Una alimentación equilibrada es aquella que mantiene a una persona en un estado óptimo de salud y le permite realizar con normalidad sus actividades cotidianas. Para ello, debe aportar la cantidad necesaria de energía para que el organismo funcione correctamente y se pueda seguir la rutina diaria sin problemas. No obstante, las necesidades calóricas varían de una persona a otra, en función de distintos aspectos como la edad o la actividad física.</p>
+    </div>
+    </section>
+        <section id="Fitness">
+            <div class="card">
+            <h2 class="title">Tips para un Estilo de Vida Fitness</h2>
+            <img src="./img/Vida firness.jpg" alt="Vida Fitness" id="imagen">
+                <p>Además de una rutina de ejercicio y una alimentación adecuada, aquí tienes algunos consejos para llevar un estilo de vida fitness:</p>
+                    <ul>
+                        <li>Establece metas realistas y medibles.</li>
+                        <li>Varía tus ejercicios para evitar la rutina.</li>
+                        <li>Prioriza el descanso y la recuperación.</li>
+                        <li>Mantén un registro de tus progresos.</li>
+                        <li>Busca la orientación de profesionales de fitness.</li>
+                    </ul>
+                </div>
+        </section>
+    <section id="alimentacionMala">
+        <div class="card">
+            <h2 class="title">Que no debes comer para que no afectes tu salud</h2>
+            <img src="./img/alimentacionMala.jpg" alt="Alimentacion mala" id="imagen">
+            <p>De acuerdo a la definición de la Organización Mundial de la Salud (OMS), la mala alimentación o malnutrición “se refiere a las carencias, los excesos y los desequilibrios de la ingesta calórica de nutrientes de una persona”.</p>
+        </div>
+    </section>
+      <section class="container container_contact">
+        <h2 class="subTitle">Formulario</h2>
+        <div class="elements_contact">
+            <form action="" id="form" class="form">
+                <label for="names">Nombres:</label>
+                <input pattern="[A-Za-z]+" title="Solo se permiten letras" type="text" id="names" />
+                <label for="lastNames">Apellidos:</label>
+                <input pattern="[A-Za-z]+" title="Solo se permiten letras" type="text" id="lastNames" />
+                <label for="mail">Correo Electrónico:</label>
+                <input type="email" id="mail" />
+                <label for="celphone">Celular:</label>
+                <input type="number" id="celphone" /><br />
+                <button type="submit" id="btnSend" class="button_send">
+                    Enviar
+                </button>
+                <button type="reset" id="btnClear" class="button_clear">
+                    Limpiar
+                </button>
+                
+            </form>
+            
+        </div>
+    </section>
+    <section id="contacto">
+        <h3 id="contacto">Contacto</h3>
+         <p id="Nombres"><b>Nombres:</b> Nicolas Rivera Carrillo <br>
+            Jhon Anderson Castro Cuspian</p>
+        <p id="Correo"><b>Correo:</b> nrivera@uniempresarial.edu.co <br>
+        jacastro@uniempresarial.edu.co</p>
+        <p id="Numero"><b>Numero :</b>320-7604-765</p>
+        <p id="Direccion"><b>Direccion: </b>Cra. 33a #30-20, Bogotá</p>
+    </section>
+    
+    <footer>
+        <p class="copy">&copy; 2023 Blog de Ejercicio y Alimentación</p>
+    </footer>
+    <!---<script type="module" src="./script/app2.js "></script>--->
+    <script type="module" src="./script/app.js "></script>
+</body>
+</html>
